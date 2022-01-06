@@ -14,7 +14,7 @@ section{
 padding: 5%;
 }
 
-.half-width img{width: 60%;
+.half-width img{width: 100%;
 
 }
 .link-button{
@@ -29,8 +29,9 @@ padding: 5%;
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
 }
-.dream-big{
+.right-side{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -53,4 +54,28 @@ padding: 5%;
  
 #zoo{border-left: 7px solid;
     border-image: linear-gradient(blue, cyan); 
-    border-image-slice: 1; }
+    border-image-slice: 1;
+ }
+.link-top{
+        text-decoration: none;
+        background-image: linear-gradient(red orange);
+        background-color: rgb(98, 0, 255);
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;  
+    }
+    .profile{
+        box-shadow: 10px 10px 30px gray;
+        padding: 10px 10px;
+        width: 50%;
+        margin: 30px;}
+        
+    #belal{border: 7px solid;
+        border-image: linear-gradient(red, Orange); 
+        border-image-slice: 1; 
+    }
+    .name{width: auto;
+        padding-left: 25%;}
+           
+   footer p{text-align: center;}
